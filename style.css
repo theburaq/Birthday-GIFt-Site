@@ -1,0 +1,98 @@
+body {
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    background: linear-gradient(lightskyblue, pink); /*using 'gradient'
+                                        to give shade of 2 colors */
+    color: #ffffff;
+}
+
+.bday-img {
+    width: 220px;
+    border-radius: 50%;
+    border: 6px solid pink;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+.bday-age {
+    background-color: pink;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.bday-date {
+    background-color: pink;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+p { 
+    width: 400px; /*we want it to have the same width as image*/
+    margin: 50px auto 20px; /*using margin to center as 'p' is a 
+        'display:block' element, so it doesnt follow 'body's text-align' */
+    font-style: italic;
+}
+
+a {
+    color: white;
+}
+
+.gift-img {
+    width: 400px;
+    height: 400px; /* setting height here to add in the image */
+    border-radius: 20px;
+    border: 6px solid rgb(211, 53, 53);
+    background-image: url(images/image2.jpg); /*adding the image like
+                                                 'space' project*/
+    background-size: cover; /*like 'space' project*/
+    background-position: center;
+    margin: 0 auto; /* to center the div*/
+}
+
+#gift-img-happy:hover {   /*this adds the hover effect */
+    background-image: url(images/Happy-Dance.gif); /*this is shown
+                            when cursor hovers over the above image*/
+}
+
+#gift-img-hot:hover {   
+    background-image: url(images/feeling-hot.gif); /*putting another image*/
+}
+
+#gift-img-genius:hover {   
+    background-image: url(images/genius.gif); /*putting another image*/
+}
+
+#gift-img-badass:hover {   
+    background-image: url(images/bad-ass.gif); /*putting another image*/
+}
+
+#gift-img-cheers {
+    height: 200px;
+
+}
+
+#gift-img-cheers:hover {   
+    background-image: url(images/cheers.gif); /*putting another image*/
+}
